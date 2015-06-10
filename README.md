@@ -111,9 +111,9 @@ Certifique-se de atributos de espaço reservado não estão sendo usados ​​n
 
 ####Validação de rich snippets
 
-- [ ][Google Developers - Testing tool](https://developers.google.com/structured- data/testing-tool/)
-- [ ][Facebook Developers - Debugger](https://developers.facebook.com/tools/debug/)
-- [ ][Twitter Developer - Card validator](https://cards-dev.twitter.com/validator/)
+- [ ] [Google Developers - Testing tool](https://developers.google.com/structured- data/testing-tool/)
+- [ ] [Facebook Developers - Debugger](https://developers.facebook.com/tools/debug/)
+- [ ] [Twitter Developer - Card validator](https://cards-dev.twitter.com/validator/)
 
 ##WPO
 
