@@ -1,6 +1,8 @@
 #Front-End Dev Checklist
 
-> Uma checklist para ajudar a manter a qualidade dos projetos web, ao menos pelo lado do Front-End :D
+Uma checklist, para ajudar a implementar boas prátivas no desenvolvimento Front-End.
+
+> Este repositórionão não é nenhum tipo de guia definitivo e nem tem a pretensão de ser, o objetivo é ter um bom ponto de partida, para que cada um crie seu próprio checklist adaptado a suas necessidades, afinal, cada casa é um caso :D
 
 ##Índice
 
@@ -11,8 +13,7 @@
 - [ ] [WPO](#)
 - [ ] [Qualidade de codigo](#)
 - [ ] [Cross Browser](#)
-- [ ] [AWD/RWD](#)
-- [ ] [Mobile](#)
+- [ ] [AWD/RWD/Mobile](#)
 - [ ] [Analise](#)
 - [ ] [Workflow](#)
 - [ ] [Mantenebilidade](#)
@@ -47,16 +48,16 @@
 
 ####Idioma
 
-- [ ] Declare corretamente o atributo lang
+- [ ] Declare corretamente o atributo `lang`
 
 ####Semântica
 
-- [ ] Estrutura semântica (header, main, aside, footer, nav, etc...)
+- [ ] Estrutura semântica (`<header>`, `main`, `aside`, `footer`, `nav`, etc...)
 - [ ] Use os headings corretamente
 
 ####Links
 
-- [ ] Garantir que os links tenhao :focus
+- [ ] Garantir que os links tenhao `:focus`
 
 ####Navegação
 
@@ -68,14 +69,13 @@
 
 ####Formularios
 
-- [ ] Associated label for all form controls
-Certifique-se de atributos de espaço reservado não estão sendo usados ​​no lugar de etiquetas das etiquetas. WHATWG
+- [ ] Utilizar a propriedade `for` para associar todos os campos a seus respectivos `labels`
 
 - [ ] Relacionado elementos de formulário com `fieldset` e descrever o grupo com um `legend`.
 
 ####Imagens
 
-- [ ] Adicionar atributo Alt coerentes em todas as imagens
+- [ ] Adicionar atributo `Alt` coerentes em todas as imagens
 
 ####Testes
 
@@ -98,11 +98,11 @@ Certifique-se de atributos de espaço reservado não estão sendo usados ​​n
 - [ ] Adicionar robots.txt
 - [ ] link building
 - [ ] Otimize os Titulos
-- [ ] Meta Description
+- [ ] Utilizar corretamente a `<meta description="">`
 
 ####Testes
 
-- Verificar SEO - [Site Analyzer](http://www.site-analyzer.com/) e [SEO SiteCheckop](http://seositecheckup.com/)
+- [ ] Verificar SEO - [Site Analyzer](http://www.site-analyzer.com/) e [SEO SiteCheckop](http://seositecheckup.com/)
 - [ ] [mobile friendle test](https://www.google.com/webmasters/tools/mobile-friendly/)
 - [ ] [W3C Semantic Validation](http://www.w3.org/2003/12/semantic-extractor.html)
 - [ ] [Validar a internacioalização](http://validator.w3.org/i18n-checker/)
@@ -128,19 +128,18 @@ Certifique-se de atributos de espaço reservado não estão sendo usados ​​n
 - [ ] Carregar assets estaticos atraves de CDN
 - [ ] Fazer cache do conteudo estatico
 - [ ] Otimizar as imagens (.jpg/.png/.svg)
-- [ ] Usar sprites sempre que possivel (incluindo SVG)
-- [ ] Incorporar CSS/SVG criticos inline. (Acima da dobra)
+- [ ] Usar sprites sempre que possivel ([incluindo SVG](http://willianjusten.com.br/usando-svg-sprites/))
 
 ####CSS
 
 - [ ] Manter animações na Composite Layer
 - [ ] Evitar Seletores universais
-- [ ] Nunca utilizar import
+- [ ] Nunca utilizar `import`
 - [ ] Criar expressões de seletores menores
 - [ ] Utilizar uma classe/ID como seletor no lugar de elementos ( .header > header)
 - [ ] Testar no CSS Perf Test
 
-####Validacoes
+####Validacoes e Testes
 
 - [ ] Page Speed resultados 90+
 - [ ] YSlow resultados 85+
@@ -159,20 +158,17 @@ Certifique-se de atributos de espaço reservado não estão sendo usados ​​n
 - [ ] Autoprefixer
 - [ ] Verifique o site em todos os navegadores
 
-##AWD/RWD
+##AWD/RWD/Mobile
 
 - [ ] Media Queries Mobile First
-- [ ] Teste em emuladores mobile
-- [ ] Teste em dispositivos reais
 - [ ] Disponibilar fotos para Retina Display
 - [ ] Utilizar SVG em tudo o que possivel
-- [ ] [Utilizar SVG inline > icon fonts](https://css-tricks.com/icon-fonts-vs-svg/)
-
-##Mobile
-
-- [ ] [Pontuação mobileOK de 75+](http://validator.w3.org/mobile/)
+- [ ] [Utilizar SVG > icon fonts](https://css-tricks.com/icon-fonts-vs-svg/)
 - [ ] Use input types corretos
-- [ ] Use a meta-tag 'viewport' da forma correta
+- [ ] Use a meta-tag `viewport` da forma correta
+- [ ] [Pontuação mobileOK de 75+](http://validator.w3.org/mobile/)
+- [ ] Teste em emuladores mobile
+- [ ] Teste em dispositivos reais
 
 #Análise
 
@@ -186,7 +182,7 @@ Certifique-se de atributos de espaço reservado não estão sendo usados ​​n
 
 ##Mantenebilidade
 
-- [ ] Nunca usar !important
+- [ ] Nunca usar `!important`
 - [ ] Focar o nome de seletores (Classes) sempre na funcao e nunca no conteudo
 
 ##Outros testes
@@ -200,6 +196,6 @@ Certifique-se de atributos de espaço reservado não estão sendo usados ​​n
 
 ##Referências
 
+- [a11y Project checklist](http://a11yproject.com/checklist.html)
 - [Browser Diet](http://browserdiet.com/)
 - [Web Dev Checklist](http://webdevchecklist.com/)
-- [a11y Project checklist](http://a11yproject.com/checklist.html)
