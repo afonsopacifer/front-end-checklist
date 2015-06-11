@@ -52,7 +52,7 @@ Uma checklist, para ajudar a implementar boas prátivas no desenvolvimento Front
 
 ####Semântica
 
-- [ ] Estrutura semântica (`<header>`, `main`, `aside`, `footer`, `nav`, etc...)
+- [ ] Estrutura semântica (`<header>`, `<main>`, `<aside>`, `<footer>`, `<nav>`, etc...)
 - [ ] Use os headings corretamente
 
 ####Links
@@ -199,3 +199,6 @@ Uma checklist, para ajudar a implementar boas prátivas no desenvolvimento Front
 - [a11y Project checklist](http://a11yproject.com/checklist.html)
 - [Browser Diet](http://browserdiet.com/)
 - [Web Dev Checklist](http://webdevchecklist.com/)
+
+## Licença
+[MIT Licence](licence.md) © Afonso Pacifer
