@@ -19,8 +19,9 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 - [ ] [Mantenabilidade](#mantenabilidade)
 - [ ] [Outros Testes](#outros-testes)
 - [ ] [Créditos](#creditos)
-- [Referências](referencias)
-- [Licença](licenca)
+- [Autores](#autores)
+- [Referências](#referencias)
+- [Licença](#licenca)
 
 ###Design
 
@@ -196,6 +197,12 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 
 - [ ] [Adicionar humans.txt](http://humanstxt.org/)
 - [ ] [Escolher e adicionar uma licença adequada](http://escolhaumalicenca.com.br/)
+
+##Autores
+
+[![Afonso Pacifer](img/afonso-pacifer.jpg)](https://github.com/afonsopacifer) | [![Dani Guerrato  ](img/dani-guerrato.jpg)](https://github.com/daniguerrato)
+--- | --- | --- | --- | --- | --- | ---
+[Afonso Pacifer](https://github.com/afonsopacifer) | [Dani Guerrato](https://github.com/daniguerrato)
 
 ##Referências
 
