@@ -1,67 +1,69 @@
-#Front-End Dev Checklist
+#Front-End Checklist
 
-Uma checklist, para ajudar a implementar boas prátivas no desenvolvimento Front-End.
+Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas práticas.
 
-> Este repositórionão não é nenhum tipo de guia definitivo e nem tem a pretensão de ser, o objetivo é ter um bom ponto de partida, para que cada um crie seu próprio checklist adaptado a suas necessidades, afinal, cada casa é um caso :D
+> Este repositório não é nenhum tipo de guia definitivo e nem tem a pretensão de ser. O objetivo é ter um bom ponto de partida para que cada um crie seu próprio checklist adaptado a suas necessidades, afinal, cada caso é um caso :D
 
 ##Índice
 
-- [ ] [Design](#)
-- [ ] [Usabilidade](#)
-- [ ] [Acessibilidade](#)
-- [ ] [SEO](#)
-- [ ] [WPO](#)
-- [ ] [Qualidade de codigo](#)
-- [ ] [Cross Browser](#)
-- [ ] [AWD/RWD/Mobile](#)
-- [ ] [Analise](#)
-- [ ] [Workflow](#)
-- [ ] [Mantenebilidade](#)
-- [ ] [Outros testes](#)
-- [ ] [A cereja do bolo](#)
+- [ ] [Design](#design)
+- [ ] [Usabilidade](#usabilidade)
+- [ ] [Acessibilidade](#acessibilidade)
+- [ ] [SEO](#seo)
+- [ ] [Web Performance Optimization](#web-performance-optimization)
+- [ ] [Qualidade de Código](#qualidade-de-codigo)
+- [ ] [Cross Browser](#cross-browser)
+- [ ] [AWD/RWD/Mobile](#awd/rwd/mobile)
+- [ ] [Análises](#analises)
+- [ ] [Workflow](#workflow)
+- [ ] [Mantenabilidade](#mantenabilidade)
+- [ ] [Outros Testes](#outros-testes)
+- [ ] [Créditos](#creditos)
+- [Referências](referencias)
+- [Licença](licenca)
 
-##Design
+###Design
 
 - [ ] [Criar guia de estilos](http://tableless.com.br/guia-de-estilos/)
 
-##Usabilidade
+###Usabilidade
 
 ####Obrigatório
 
 - [ ] [Adicionar Favicons](http://tableless.com.br/favicons/)
 - [ ] Adicionar pagina 404 personalizada
-- [ ] Usar URLs amigaveis
+- [ ] Utilizar URLs amigaveis
 - [ ] [Utilizar um css alternativo que seja "Print friendly"](http://www.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/)
 
 ####Opcional
 
-- [ ] [Adicionar pesquisa](https://cse.google.com/cse/)
-- [ ] [Integração com ambiente iOS](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
-- [ ] [Integração com ambiente Windows](https://msdn.microsoft.com/library/hh781490.aspx)
+- [ ] [Adicionar pesquisa interna](https://cse.google.com/cse/)
+- [ ] [Integrar ao ambiente iOS](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+- [ ] [Integrar ao ambiente Windows](https://msdn.microsoft.com/library/hh781490.aspx)
 
-##Acessibilidade
+###Acessibilidade
 
-####Landmarks
+####Marcação
 
 - [ ] Adicionar WAI-ARIA
 - [ ] Validar WAI-ARIA
+
+####Semântica
+
+- [ ] Utilizar corretamente a estrutura semântica `<header>`, `<main>`, `<aside>`, `<footer>`, `<nav>` etc...
+- [ ] Use os `Headings` corretamente
 
 ####Idioma
 
 - [ ] Declare corretamente o atributo `lang`
 
-####Semântica
-
-- [ ] Estrutura semântica (`<header>`, `<main>`, `<aside>`, `<footer>`, `<nav>`, etc...)
-- [ ] Use os headings corretamente
-
 ####Links
 
-- [ ] Garantir que os links tenhao `:focus`
+- [ ] Garantir que os links sempre tenham o evento `:focus` atrelado
 
 ####Navegação
 
-- [ ] Adicionar `:focus` junto a todos os `:hover`
+- [ ] Adicionar o evento :focus junto a todos os evento de  `:hover`
 
 ####Cores
 
@@ -69,45 +71,37 @@ Uma checklist, para ajudar a implementar boas prátivas no desenvolvimento Front
 
 ####Formularios
 
-- [ ] Utilizar a propriedade `for` para associar todos os campos a seus respectivos `labels`
+- [ ] Vincular os `labels` a seus respectivos campos através da propriedade `for`.
 
-- [ ] Relacionado elementos de formulário com `fieldset` e descrever o grupo com um `legend`.
+- [ ] Relacione os elementos com `fieldset` e descreva o grupo com um `legend` adequado.
 
 ####Imagens
 
-- [ ] Adicionar atributo `Alt` coerentes em todas as imagens
+- [ ] Adicionar o atributo `alt` com conteúdo coerente em todas as imagens.
+
 
 ####Testes
 
 - [ ] Validar Acessibilidade
 - [ ] Testar navegação apenas com o teclado
-- [ ] Testar em Leitor de tela
+- [ ] Testar diretamente no leitor de tela
 
-##SEO
+###SEO
 
-####Markup
+####Básico
+
+- [ ] [Submeter URL ao index do google](http://www.google.com.br/add_url.html)
+- [ ] Adicionar sitemap.xml
+- [ ] Adicionar robots.txt
+- [ ] Planejar link building
+- [ ] Oferecer um conteúdo relevante no elemento `<tittle>`
+- [ ] Oferecer um conteúdo relevante nas `<meta description=“”>`
+
+####Marcação
 
 - [ ] [Schema](https://schema.org/)
 - [ ] [Open Graph Protocol](http://ogp.me/)
 - [ ] [Twitter Cards](https://dev.twitter.com/cards/overview)
-
-####SEO
-
-- [ ] [submeter URL ao index do google](http://www.google.com.br/add_url.html)
-- [ ] Adicionar sitemap.xml
-- [ ] Adicionar robots.txt
-- [ ] link building
-- [ ] Otimize os Titulos
-- [ ] Utilizar corretamente a `<meta description="">`
-
-####Testes
-
-- [ ] Verificar SEO - [Site Analyzer](http://www.site-analyzer.com/) e [SEO SiteCheckop](http://seositecheckup.com/)
-- [ ] [mobile friendle test](https://www.google.com/webmasters/tools/mobile-friendly/)
-- [ ] [W3C Semantic Validation](http://www.w3.org/2003/12/semantic-extractor.html)
-- [ ] [Validar a internacioalização](http://validator.w3.org/i18n-checker/)
-- [ ] [Google Webmaster Tools](https://www.google.com/webmasters/tools/)
-- [ ] [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster)
 
 ####Validação de rich snippets
 
@@ -115,84 +109,93 @@ Uma checklist, para ajudar a implementar boas prátivas no desenvolvimento Front
 - [ ] [Facebook Developers - Debugger](https://developers.facebook.com/tools/debug/)
 - [ ] [Twitter Developer - Card validator](https://cards-dev.twitter.com/validator/)
 
-##WPO
+####Testes
 
-####Geral
+- [ ] Verificar SEO - [Site Analyzer](http://www.site-analyzer.com/) e [SEO SiteCheckop](http://seositecheckup.com/)
+- [ ] [Google mobile friendly test](https://www.google.com/webmasters/tools/mobile-friendly/)
+- [ ] [W3C Semantic Validation](http://www.w3.org/2003/12/semantic-extractor.html)
+- [ ] [W3C Internationalization Checker](http://validator.w3.org/i18n-checker/)
+- [ ] [Google Webmaster Tools](https://www.google.com/webmasters/tools/)
+- [ ] [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster)
 
-- [ ] Gzip
+###Web Performance Optimization
+
+####Básico
+
+- [ ] Servir arquivos comprimidos através de Gzip
 - [ ] Concatenar os arquivos CSS
 - [ ] Concatenar os arquivos JS
-- [ ] Minificas os arquivos HTML
-- [ ] Minificas os arquivos CSS
-- [ ] Minificas os arquivos JS
-- [ ] Carregar assets estaticos atraves de CDN
-- [ ] Fazer cache do conteudo estatico
-- [ ] Otimizar as imagens (.jpg/.png/.svg)
-- [ ] Usar sprites sempre que possivel ([incluindo SVG](http://willianjusten.com.br/usando-svg-sprites/))
+- [ ] Minificar os arquivos HTML
+- [ ] Minificar os arquivos CSS
+- [ ] Minificar os arquivos JS
+- [ ] Carregar assets estáticos através de um CDN
+- [ ] Fazer cache do conteúdo estático
+- [ ] Otimizar imagens
+- [ ] Usar sprites sempre que possível ([incluindo SVG](http://willianjusten.com.br/usando-svg-sprites/))
 
 ####CSS
 
 - [ ] Manter animações na Composite Layer
-- [ ] Evitar Seletores universais
-- [ ] Nunca utilizar `import`
-- [ ] Criar expressões de seletores menores
-- [ ] Utilizar uma classe/ID como seletor no lugar de elementos ( .header > header)
-- [ ] Testar no CSS Perf Test
+- [ ] Evitar ao máximo utilizar o seletor universal *
+- [ ] Não utilizar import (ao menos que seja com algum pré-processador)
+- [ ] Criar expressões de seletores o menor possíveis
+- [ ] Utilizar uma classe/ID como seletor e evitar selecionar os elementos diretamente ( `.header`/`#header` > `header`)
 
-####Validacoes e Testes
+####Validações e Testes
 
+- [ ] Web Page Test
 - [ ] Page Speed resultados 90+
 - [ ] YSlow resultados 85+
-- [ ] Validar no Web Page Test
+- [ ] CSS Perf Test
 
-##Qualidade de codigo
+###Qualidade de código
 
-- [ ] Validação do HTML na W3C
-- [ ] Validação do CSS na W3C
+- [ ] Validar HTML na W3C
+- [ ] Validar HTML na W3C
 - [ ] CSS Lint
 - [ ] JS Hint
 
-##Cross Browser
+###Cross Browser
 
 - [ ] Definir quais browsers serão suportados
-- [ ] Autoprefixer
-- [ ] Verifique o site em todos os navegadores
+- [ ] Utilizar Autoprefixer
+- [ ] Verifique o site/aplicação em todos os navegadores
 
-##AWD/RWD/Mobile
+###AWD/RWD/Mobile
 
 - [ ] Media Queries Mobile First
 - [ ] Disponibilar fotos para Retina Display
-- [ ] Utilizar SVG em tudo o que possivel
-- [ ] [Utilizar SVG > icon fonts](https://css-tricks.com/icon-fonts-vs-svg/)
+- [ ] Utilizar SVG em tudo o que possivel ([SVG > icon fonts](https://css-tricks.com/icon-fonts-vs-svg/))
 - [ ] Use input types corretos
 - [ ] Use a meta-tag `viewport` da forma correta
 - [ ] [Pontuação mobileOK de 75+](http://validator.w3.org/mobile/)
 - [ ] Teste em emuladores mobile
 - [ ] Teste em dispositivos reais
 
-#Análise
+###Análises
 
 - [ ] Adicionar análise de tráfego (Analytics)
 
-##Workflow
+###Workflow
 
-- [ ] Versionar corretamente
-- [ ] Incorporar Livereload
+- [ ] Versionar o projeto corretamente
+- [ ] Automatizar o máximo de tarefas possíveis
 - [ ] Automatizar deploy
 
-##Mantenebilidade
+###Mantenabilidade
 
 - [ ] Nunca usar `!important`
-- [ ] Focar o nome de seletores (Classes) sempre na funcao e nunca no conteudo
+- [ ] Focar o nome de seletores (Classes) sempre na função e nunca no conteúdo
 
-##Outros testes
+###Outros Testes
 
 - [ ] [Verificar links quebrados](http://validator.w3.org/checklink)
 - [ ] Verificar ortografia e gramática
 
-##A cereja do bolo
+###Créditos
 
 - [ ] [Adicionar humans.txt](http://humanstxt.org/)
+- [ ] [Escolher e adicionar uma licença adequada](http://escolhaumalicenca.com.br/)
 
 ##Referências
 
@@ -200,5 +203,5 @@ Uma checklist, para ajudar a implementar boas prátivas no desenvolvimento Front
 - [Browser Diet](http://browserdiet.com/)
 - [Web Dev Checklist](http://webdevchecklist.com/)
 
-## Licença
+##Licença
 [MIT Licence](licence.md) © Afonso Pacifer
