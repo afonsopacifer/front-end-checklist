@@ -200,9 +200,9 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas prÃ
 
 ##Autores
 
-[![Afonso Pacifer](img/afonso-pacifer.jpg)](https://github.com/afonsopacifer) | [![Dani Guerrato  ](img/dani-guerrato.jpg)](https://github.com/daniguerrato)
+[![Afonso Pacifer](img/afonso-pacifer.jpg)](https://github.com/afonsopacifer) | [![Dani Guerrato  ](img/dani-guerrato.jpg)](https://github.com/daniguerrato) | [![Bruno Pulis  ](img/bruno-pulis.jpg)](https://github.com/brunopulis)
 --- | --- | --- | --- | --- | --- | ---
-[Afonso Pacifer](https://github.com/afonsopacifer) | [Dani Guerrato](https://github.com/daniguerrato)
+[Afonso Pacifer](https://github.com/afonsopacifer) | [Dani Guerrato](https://github.com/daniguerrato)| [Bruno Pulis](https://github.com/brunopulis)
 
 ##ReferÃªncias
 
