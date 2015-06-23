@@ -170,6 +170,7 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 - [ ] Use input types corretos
 - [ ] Use a meta-tag `viewport` da forma correta
 - [ ] [Pontuação mobileOK de 75+](http://validator.w3.org/mobile/)
+- [ ] [Validar no W3C Mobile Checker](https://validator.w3.org/mobile-alpha/)
 - [ ] Teste em emuladores mobile
 - [ ] Teste em dispositivos reais
 
