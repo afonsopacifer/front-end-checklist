@@ -46,6 +46,7 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 
 ####Marcação
 
+- [ ] [Adicionar 'Salto de Conteúdo'](http://a11yproject.com/posts/skip-nav-links/)
 - [ ] Adicionar WAI-ARIA
 - [ ] Validar WAI-ARIA
 
@@ -61,10 +62,17 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 ####Links
 
 - [ ] Garantir que os links sempre tenham o evento `:focus` atrelado
+- [ ] Garantir que os links sejam reconhecidos como `links`
 
 ####Navegação
 
 - [ ] Adicionar o evento :focus junto a todos os evento de  `:hover`
+
+#### Mídia
+
+
+- [ ] Forneça transcrições de texto.
+- [ ] Sincronize legendas com o vídeo.
 
 ####Cores
 
@@ -78,14 +86,19 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 
 ####Imagens
 
-- [ ] Adicionar o atributo `alt` com conteúdo coerente em todas as imagens.
+- [ ] Adicionar o atributo `alt` com descrição coerente em todas as imagens.
 
+####Javascript
+- [ ] Unobtrusive Javascript
+- [ ] Alternativas sem Javascript - fornecer alternativas para usuários sem Javascript habilitado.
 
 ####Testes
 
 - [ ] Validar Acessibilidade
+- [ ] Validar Contraste
 - [ ] Testar navegação apenas com o teclado
 - [ ] Testar diretamente no leitor de tela
+
 
 ###SEO
 
