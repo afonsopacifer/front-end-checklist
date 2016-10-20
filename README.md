@@ -165,7 +165,7 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr√
 ###Qualidade de c√≥digo
 
 - [ ] Validar HTML na W3C
-- [ ] Validar HTML na W3C
+- [ ] Validar CSS na W3C
 - [ ] CSS Lint
 - [ ] JS Hint
 
