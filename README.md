@@ -1,10 +1,10 @@
-#Front-End Checklist
+# Front-end Checklist
 
-Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas práticas.
+Uma checklist para ajudar os desenvolvedores Front-end a implementar as boas práticas.
 
 > Este repositório não é nenhum tipo de guia definitivo e nem tem a pretensão de ser. O objetivo é ter um bom ponto de partida para que cada um crie seu próprio checklist adaptado a suas necessidades, afinal, cada caso é um caso :D
 
-##Índice
+## Índice
 
 - [ ] [Design](#design)
 - [ ] [Usabilidade](#usabilidade)
@@ -23,76 +23,76 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 - [Referências](#referencias)
 - [Licença](#licenca)
 
-###Design
+### Design
 
 - [ ] [Criar guia de estilos](http://tableless.com.br/guia-de-estilos/)
 
-###Usabilidade
+### Usabilidade
 
-####Obrigatório
+#### Obrigatório
 
 - [ ] [Adicionar Favicons](http://tableless.com.br/favicons/)
-- [ ] Adicionar pagina 404 personalizada
-- [ ] Utilizar URLs amigaveis
-- [ ] [Utilizar um css alternativo que seja "Print friendly"](http://www.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/)
+- [ ] Adicionar página 404 personalizada
+- [ ] Utilizar URLs amigáveis
+- [ ] [Utilizar um CSS alternativo que seja "Print friendly"](http://www.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/)
 
-####Opcional
+#### Opcional
 
 - [ ] [Adicionar pesquisa interna](https://cse.google.com/cse/)
 - [ ] [Integrar ao ambiente iOS](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 - [ ] [Integrar ao ambiente Windows](https://msdn.microsoft.com/library/hh781490.aspx)
 
-###Acessibilidade
+### Acessibilidade
 
-####Marcação
+#### Marcação
 
 - [ ] [Adicionar 'Salto de Conteúdo'](http://a11yproject.com/posts/skip-nav-links/)
 - [ ] Adicionar WAI-ARIA
 - [ ] Validar WAI-ARIA
 
-####Semântica
+#### Semântica
 
 - [ ] Utilizar corretamente a estrutura semântica `<header>`, `<main>`, `<aside>`, `<footer>`, `<nav>` etc...
 - [ ] Use os `Headings` corretamente
 
-####Idioma
+#### Idioma
 
 - [ ] Declare corretamente o atributo `lang`
 
-####Links
+#### Links
 
 - [ ] Garantir que os links sempre tenham o evento `:focus` atrelado
 - [ ] Garantir que os links sejam reconhecidos como `links`
 
-####Navegação
+#### Navegação
 
-- [ ] Adicionar o evento :focus junto a todos os evento de  `:hover`
+- [ ] Adicionar o evento :focus junto a todos os evento de `:hover`
 
 #### Mídia
-
 
 - [ ] Forneça transcrições de texto.
 - [ ] Sincronize legendas com o vídeo.
 
-####Cores
+#### Cores
 
 - [ ] [Validar contraste de cor](http://www.checkmycolours.com/)
 
-####Formularios
+#### Formulários
 
 - [ ] Vincular os `labels` a seus respectivos campos através da propriedade `for`.
 
 - [ ] Relacione os elementos com `fieldset` e descreva o grupo com um `legend` adequado.
 
-####Imagens
+#### Imagens
 
 - [ ] Adicionar o atributo `alt` com descrição coerente em todas as imagens.
 
-####Javascript
-- [ ] Unobtrusive Javascript
-- [ ] Alternativas sem Javascript - fornecer alternativas para usuários sem Javascript habilitado.
+#### JavaScript
 
-####Testes
+- [ ] Unobtrusive JavaScript
+- [ ] Alternativas sem JavaScript - fornecer alternativas para usuários sem JavaScript habilitado.
+
+#### Testes
 
 - [ ] Validar Acessibilidade
 - [ ] Validar Contraste
@@ -100,30 +100,30 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 - [ ] Testar diretamente no leitor de tela
 
 
-###SEO
+### SEO
 
-####Básico
+#### Básico
 
-- [ ] [Submeter URL ao index do google](http://www.google.com.br/add_url.html)
+- [ ] [Submeter URL ao índice do Google](https://www.google.com.br/intl/pt-BR/add_url.html)
 - [ ] Adicionar sitemap.xml
 - [ ] Adicionar robots.txt
 - [ ] Planejar link building
 - [ ] Oferecer um conteúdo relevante no elemento `<tittle>`
-- [ ] Oferecer um conteúdo relevante nas `<meta description=“”>`
+- [ ] Oferecer um conteúdo relevante nas `<meta description="">`
 
-####Marcação
+#### Marcação
 
 - [ ] [Schema](https://schema.org/)
 - [ ] [Open Graph Protocol](http://ogp.me/)
 - [ ] [Twitter Cards](https://dev.twitter.com/cards/overview)
 
-####Validação de rich snippets
+#### Validação de rich snippets
 
 - [ ] [Google Developers - Testing tool](https://developers.google.com/structured- data/testing-tool/)
 - [ ] [Facebook Developers - Debugger](https://developers.facebook.com/tools/debug/)
 - [ ] [Twitter Developer - Card validator](https://cards-dev.twitter.com/validator/)
 
-####Testes
+#### Testes
 
 - [ ] Verificar SEO - [Site Analyzer](http://www.site-analyzer.com/) e [SEO SiteCheckop](http://seositecheckup.com/)
 - [ ] [Google mobile friendly test](https://www.google.com/webmasters/tools/mobile-friendly/)
@@ -132,9 +132,9 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 - [ ] [Google Webmaster Tools](https://www.google.com/webmasters/tools/)
 - [ ] [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster)
 
-###Web Performance Optimization
+### Web Performance Optimization
 
-####Básico
+#### Básico
 
 - [ ] Servir arquivos comprimidos através de Gzip
 - [ ] Concatenar os arquivos CSS
@@ -147,7 +147,7 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 - [ ] Otimizar imagens
 - [ ] Usar sprites sempre que possível ([incluindo SVG](http://willianjusten.com.br/usando-svg-sprites/))
 
-####CSS
+#### CSS
 
 - [ ] Manter animações na Composite Layer
 - [ ] Evitar ao máximo utilizar o seletor universal *
@@ -155,74 +155,75 @@ Uma checklist para ajudar os desenvolvedores Front-End a implementar as boas pr�
 - [ ] Criar expressões de seletores o menor possíveis
 - [ ] Utilizar uma classe/ID como seletor e evitar selecionar os elementos diretamente ( `.header`/`#header` > `header`)
 
-####Validações e Testes
+#### Validações e Testes
 
 - [ ] Web Page Test
 - [ ] Page Speed resultados 90+
 - [ ] YSlow resultados 85+
 - [ ] CSS Perf Test
 
-###Qualidade de código
+### Qualidade de código
 
 - [ ] Validar HTML na W3C
 - [ ] Validar CSS na W3C
 - [ ] CSS Lint
 - [ ] JS Hint
 
-###Cross Browser
+### Cross-browser
 
 - [ ] Definir quais browsers serão suportados
 - [ ] Utilizar Autoprefixer
 - [ ] Verifique o site/aplicação em todos os navegadores
 
-###AWD/RWD/Mobile
+### AWD/RWD/Mobile
 
 - [ ] Media Queries Mobile First
-- [ ] Disponibilar fotos para Retina Display
+- [ ] Disponibilizar fotos para Retina Display
 - [ ] Utilizar SVG em tudo o que possivel ([SVG > icon fonts](https://css-tricks.com/icon-fonts-vs-svg/))
 - [ ] Use input types corretos
 - [ ] Use a meta-tag `viewport` da forma correta
-- [ ] [Pontuação mobileOK de 75+](http://validator.w3.org/mobile/)
+- [ ] [Pontuação mobile OK de 75+](http://validator.w3.org/mobile/)
 - [ ] [Validar no W3C Mobile Checker](https://validator.w3.org/mobile-alpha/)
 - [ ] Teste em emuladores mobile
 - [ ] Teste em dispositivos reais
 
-###Análises
+### Análises
 
 - [ ] Adicionar análise de tráfego (Analytics)
 
-###Workflow
+### Workflow
 
 - [ ] Versionar o projeto corretamente
 - [ ] Automatizar o máximo de tarefas possíveis
 - [ ] Automatizar deploy
 
-###Mantenabilidade
+### Mantenabilidade
 
 - [ ] Nunca usar `!important`
 - [ ] Focar o nome de seletores (Classes) sempre na função e nunca no conteúdo
 
-###Outros Testes
+### Outros Testes
 
 - [ ] [Verificar links quebrados](http://validator.w3.org/checklink)
 - [ ] Verificar ortografia e gramática
 
-###Créditos
+### Créditos
 
 - [ ] [Adicionar humans.txt](http://humanstxt.org/)
 - [ ] [Escolher e adicionar uma licença adequada](http://escolhaumalicenca.com.br/)
 
-##Autores
+## Autores
 
-[![Afonso Pacifer](img/afonso-pacifer.jpg)](https://github.com/afonsopacifer) | [![Dani Guerrato  ](img/dani-guerrato.jpg)](https://github.com/daniguerrato) | [![Bruno Pulis  ](img/bruno-pulis.jpg)](https://github.com/brunopulis)
+[![Afonso Pacifer](img/afonso-pacifer.jpg)](https://github.com/afonsopacifer) | [![Dani Guerrato](img/dani-guerrato.jpg)](https://github.com/daniguerrato) | [![Bruno Pulis](img/bruno-pulis.jpg)](https://github.com/brunopulis)
 --- | --- | --- | --- | --- | --- | ---
 [Afonso Pacifer](https://github.com/afonsopacifer) | [Dani Guerrato](https://github.com/daniguerrato)| [Bruno Pulis](https://github.com/brunopulis)
 
-##Referências
+## Referências
 
 - [a11y Project checklist](http://a11yproject.com/checklist.html)
 - [Browser Diet](http://browserdiet.com/)
 - [Web Dev Checklist](http://webdevchecklist.com/)
 
-##Licença
+## Licença
+
 [MIT Licence](licence.md) © Afonso Pacifer
