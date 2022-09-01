@@ -108,7 +108,7 @@ Uma checklist para ajudar os desenvolvedores Front-end a implementar as boas pr�
 - [ ] Adicionar sitemap.xml
 - [ ] Adicionar robots.txt
 - [ ] Planejar link building
-- [ ] Oferecer um conteúdo relevante no elemento `<tittle>`
+- [ ] Oferecer um conteúdo relevante no elemento `<title>`
 - [ ] Oferecer um conteúdo relevante nas `<meta description="">`
 
 #### Marcação
